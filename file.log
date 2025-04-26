@@ -1,0 +1,219 @@
+2025-04-26 10:49:28 [main] INFO  org.example.networkchat.Server - Server started on port 8081
+2025-04-26 10:53:13 [main] ERROR org.example.networkchat.Client - Client error: Connection refused: connect
+2025-04-26 10:58:07 [main] INFO  org.example.networkchat.Server - Server started on port 8081
+2025-04-26 10:58:30 [main] INFO  org.example.networkchat.Client - Connected to server at localhost:8081
+2025-04-26 10:58:41 [main] WARN  org.example.networkchat.Client - Input failed, using default username: Anonymous
+2025-04-26 10:58:41 [main] INFO  org.example.networkchat.Client - Username sent: Anonymous
+2025-04-26 10:58:41 [Thread-0] INFO  o.example.networkchat.ClientHandler - User Anonymous connected
+2025-04-26 10:58:41 [Thread-0] INFO  org.example.networkchat.Server - Broadcasting message: Anonymous has joined the chat
+2025-04-26 10:58:41 [Thread-0] INFO  org.example.networkchat.Client - Received: Enter your username:
+2025-04-26 10:58:53 [Thread-1] INFO  o.example.networkchat.ClientHandler - User GET /login HTTP/1.1 connected
+2025-04-26 10:58:53 [Thread-1] INFO  org.example.networkchat.Server - Broadcasting message: GET /login HTTP/1.1 has joined the chat
+2025-04-26 10:58:53 [Thread-0] INFO  org.example.networkchat.Client - Received: GET /login HTTP/1.1 has joined the chat
+2025-04-26 10:58:53 [Thread-1] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:58:53] GET /login HTTP/1.1: Host: localhost:8081
+2025-04-26 10:58:53 [Thread-1] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:58:53] GET /login HTTP/1.1: Connection: keep-alive
+2025-04-26 10:58:53 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:58:53] GET /login HTTP/1.1: Host: localhost:8081
+2025-04-26 10:58:53 [Thread-1] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:58:53] GET /login HTTP/1.1: sec-ch-ua: "Not A(Brand";v="8", "Chromium";v="132", "YaBrowser";v="25.2", "Yowser";v="2.5"
+2025-04-26 10:58:53 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:58:53] GET /login HTTP/1.1: Connection: keep-alive
+2025-04-26 10:58:53 [Thread-1] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:58:53] GET /login HTTP/1.1: sec-ch-ua-mobile: ?0
+2025-04-26 10:58:53 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:58:53] GET /login HTTP/1.1: sec-ch-ua: "Not A(Brand";v="8", "Chromium";v="132", "YaBrowser";v="25.2", "Yowser";v="2.5"
+2025-04-26 10:58:53 [Thread-1] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:58:53] GET /login HTTP/1.1: sec-ch-ua-platform: "Windows"
+2025-04-26 10:58:53 [Thread-1] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:58:53] GET /login HTTP/1.1: Upgrade-Insecure-Requests: 1
+2025-04-26 10:58:53 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:58:53] GET /login HTTP/1.1: sec-ch-ua-mobile: ?0
+2025-04-26 10:58:53 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:58:53] GET /login HTTP/1.1: sec-ch-ua-platform: "Windows"
+2025-04-26 10:58:53 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:58:53] GET /login HTTP/1.1: Upgrade-Insecure-Requests: 1
+2025-04-26 10:58:53 [Thread-1] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:58:53] GET /login HTTP/1.1: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+2025-04-26 10:58:53 [Thread-1] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:58:53] GET /login HTTP/1.1: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2025-04-26 10:58:53 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:58:53] GET /login HTTP/1.1: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+2025-04-26 10:58:53 [Thread-1] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:58:53] GET /login HTTP/1.1: Sec-Fetch-Site: none
+2025-04-26 10:58:53 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:58:53] GET /login HTTP/1.1: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2025-04-26 10:58:53 [Thread-1] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:58:53] GET /login HTTP/1.1: Sec-Fetch-Mode: navigate
+2025-04-26 10:58:53 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:58:53] GET /login HTTP/1.1: Sec-Fetch-Site: none
+2025-04-26 10:58:53 [Thread-1] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:58:53] GET /login HTTP/1.1: Sec-Fetch-User: ?1
+2025-04-26 10:58:53 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:58:53] GET /login HTTP/1.1: Sec-Fetch-Mode: navigate
+2025-04-26 10:58:53 [Thread-1] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:58:53] GET /login HTTP/1.1: Sec-Fetch-Dest: document
+2025-04-26 10:58:53 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:58:53] GET /login HTTP/1.1: Sec-Fetch-User: ?1
+2025-04-26 10:58:53 [Thread-1] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:58:53] GET /login HTTP/1.1: Accept-Encoding: gzip, deflate, br, zstd
+2025-04-26 10:58:53 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:58:53] GET /login HTTP/1.1: Sec-Fetch-Dest: document
+2025-04-26 10:58:53 [Thread-1] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:58:53] GET /login HTTP/1.1: Accept-Language: ru,en;q=0.9
+2025-04-26 10:58:53 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:58:53] GET /login HTTP/1.1: Accept-Encoding: gzip, deflate, br, zstd
+2025-04-26 10:58:53 [Thread-1] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:58:53] GET /login HTTP/1.1: If-None-Match: W/"34f-71pxzopWTejQ55/ycWUp+sZUY3k"
+2025-04-26 10:58:53 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:58:53] GET /login HTTP/1.1: Accept-Language: ru,en;q=0.9
+2025-04-26 10:58:53 [Thread-1] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:58:53] GET /login HTTP/1.1: 
+2025-04-26 10:58:53 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:58:53] GET /login HTTP/1.1: If-None-Match: W/"34f-71pxzopWTejQ55/ycWUp+sZUY3k"
+2025-04-26 10:58:53 [Thread-1] INFO  org.example.networkchat.Server - Client disconnected, remaining clients: 1
+2025-04-26 10:58:53 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:58:53] GET /login HTTP/1.1: 
+2025-04-26 10:58:53 [Thread-1] INFO  org.example.networkchat.Server - Broadcasting message: GET /login HTTP/1.1 has left the chat
+2025-04-26 10:58:53 [Thread-0] INFO  org.example.networkchat.Client - Received: GET /login HTTP/1.1 has left the chat
+2025-04-26 10:58:54 [Thread-2] INFO  o.example.networkchat.ClientHandler - User GET /login HTTP/1.1 connected
+2025-04-26 10:58:54 [Thread-2] INFO  org.example.networkchat.Server - Broadcasting message: GET /login HTTP/1.1 has joined the chat
+2025-04-26 10:58:54 [Thread-0] INFO  org.example.networkchat.Client - Received: GET /login HTTP/1.1 has joined the chat
+2025-04-26 10:58:54 [Thread-2] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:58:54] GET /login HTTP/1.1: Host: localhost:8081
+2025-04-26 10:58:54 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:58:54] GET /login HTTP/1.1: Host: localhost:8081
+2025-04-26 10:58:54 [Thread-2] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:58:54] GET /login HTTP/1.1: Connection: keep-alive
+2025-04-26 10:58:54 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:58:54] GET /login HTTP/1.1: Connection: keep-alive
+2025-04-26 10:58:54 [Thread-2] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:58:54] GET /login HTTP/1.1: Cache-Control: max-age=0
+2025-04-26 10:58:54 [Thread-2] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:58:54] GET /login HTTP/1.1: sec-ch-ua: "Not A(Brand";v="8", "Chromium";v="132", "YaBrowser";v="25.2", "Yowser";v="2.5"
+2025-04-26 10:58:54 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:58:54] GET /login HTTP/1.1: Cache-Control: max-age=0
+2025-04-26 10:58:54 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:58:54] GET /login HTTP/1.1: sec-ch-ua: "Not A(Brand";v="8", "Chromium";v="132", "YaBrowser";v="25.2", "Yowser";v="2.5"
+2025-04-26 10:58:54 [Thread-2] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:58:54] GET /login HTTP/1.1: sec-ch-ua-mobile: ?0
+2025-04-26 10:58:54 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:58:54] GET /login HTTP/1.1: sec-ch-ua-mobile: ?0
+2025-04-26 10:58:54 [Thread-2] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:58:54] GET /login HTTP/1.1: sec-ch-ua-platform: "Windows"
+2025-04-26 10:58:54 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:58:54] GET /login HTTP/1.1: sec-ch-ua-platform: "Windows"
+2025-04-26 10:58:54 [Thread-2] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:58:54] GET /login HTTP/1.1: Upgrade-Insecure-Requests: 1
+2025-04-26 10:58:54 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:58:54] GET /login HTTP/1.1: Upgrade-Insecure-Requests: 1
+2025-04-26 10:58:54 [Thread-2] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:58:54] GET /login HTTP/1.1: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+2025-04-26 10:58:54 [Thread-2] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:58:54] GET /login HTTP/1.1: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2025-04-26 10:58:54 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:58:54] GET /login HTTP/1.1: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+2025-04-26 10:58:54 [Thread-2] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:58:54] GET /login HTTP/1.1: Sec-Fetch-Site: none
+2025-04-26 10:58:54 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:58:54] GET /login HTTP/1.1: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2025-04-26 10:58:54 [Thread-2] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:58:54] GET /login HTTP/1.1: Sec-Fetch-Mode: navigate
+2025-04-26 10:58:54 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:58:54] GET /login HTTP/1.1: Sec-Fetch-Site: none
+2025-04-26 10:58:54 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:58:54] GET /login HTTP/1.1: Sec-Fetch-Mode: navigate
+2025-04-26 10:58:54 [Thread-2] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:58:54] GET /login HTTP/1.1: Sec-Fetch-User: ?1
+2025-04-26 10:58:54 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:58:54] GET /login HTTP/1.1: Sec-Fetch-User: ?1
+2025-04-26 10:58:54 [Thread-2] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:58:54] GET /login HTTP/1.1: Sec-Fetch-Dest: document
+2025-04-26 10:58:54 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:58:54] GET /login HTTP/1.1: Sec-Fetch-Dest: document
+2025-04-26 10:58:54 [Thread-2] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:58:54] GET /login HTTP/1.1: Accept-Encoding: gzip, deflate, br, zstd
+2025-04-26 10:58:54 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:58:54] GET /login HTTP/1.1: Accept-Encoding: gzip, deflate, br, zstd
+2025-04-26 10:58:54 [Thread-2] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:58:54] GET /login HTTP/1.1: Accept-Language: ru,en;q=0.9
+2025-04-26 10:58:54 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:58:54] GET /login HTTP/1.1: Accept-Language: ru,en;q=0.9
+2025-04-26 10:58:54 [Thread-2] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:58:54] GET /login HTTP/1.1: If-None-Match: W/"34f-71pxzopWTejQ55/ycWUp+sZUY3k"
+2025-04-26 10:58:54 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:58:54] GET /login HTTP/1.1: If-None-Match: W/"34f-71pxzopWTejQ55/ycWUp+sZUY3k"
+2025-04-26 10:58:54 [Thread-2] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:58:54] GET /login HTTP/1.1: 
+2025-04-26 10:58:54 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:58:54] GET /login HTTP/1.1: 
+2025-04-26 10:58:54 [Thread-2] INFO  org.example.networkchat.Server - Client disconnected, remaining clients: 2
+2025-04-26 10:58:54 [Thread-2] INFO  org.example.networkchat.Server - Broadcasting message: GET /login HTTP/1.1 has left the chat
+2025-04-26 10:58:54 [Thread-0] INFO  org.example.networkchat.Client - Received: GET /login HTTP/1.1 has left the chat
+2025-04-26 10:58:54 [Thread-3] INFO  o.example.networkchat.ClientHandler - User GET /login HTTP/1.1 connected
+2025-04-26 10:58:54 [Thread-3] INFO  org.example.networkchat.Server - Broadcasting message: GET /login HTTP/1.1 has joined the chat
+2025-04-26 10:58:54 [Thread-3] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:58:54] GET /login HTTP/1.1: Host: localhost:8081
+2025-04-26 10:58:54 [Thread-0] INFO  org.example.networkchat.Client - Received: GET /login HTTP/1.1 has joined the chat
+2025-04-26 10:58:54 [Thread-3] INFO  org.example.networkchat.Server - Client disconnected, remaining clients: 2
+2025-04-26 10:58:54 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:58:54] GET /login HTTP/1.1: Host: localhost:8081
+2025-04-26 10:58:54 [Thread-3] INFO  org.example.networkchat.Server - Broadcasting message: GET /login HTTP/1.1 has left the chat
+2025-04-26 10:58:54 [Thread-0] INFO  org.example.networkchat.Client - Received: GET /login HTTP/1.1 has left the chat
+2025-04-26 10:58:55 [Thread-4] INFO  o.example.networkchat.ClientHandler - User GET /login HTTP/1.1 connected
+2025-04-26 10:58:55 [Thread-4] INFO  org.example.networkchat.Server - Broadcasting message: GET /login HTTP/1.1 has joined the chat
+2025-04-26 10:58:55 [Thread-0] INFO  org.example.networkchat.Client - Received: GET /login HTTP/1.1 has joined the chat
+2025-04-26 10:58:55 [Thread-4] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:58:55] GET /login HTTP/1.1: Host: localhost:8081
+2025-04-26 10:58:55 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:58:55] GET /login HTTP/1.1: Host: localhost:8081
+2025-04-26 10:58:55 [Thread-4] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:58:55] GET /login HTTP/1.1: Connection: keep-alive
+2025-04-26 10:58:55 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:58:55] GET /login HTTP/1.1: Connection: keep-alive
+2025-04-26 10:58:55 [Thread-4] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:58:55] GET /login HTTP/1.1: Cache-Control: max-age=0
+2025-04-26 10:58:55 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:58:55] GET /login HTTP/1.1: Cache-Control: max-age=0
+2025-04-26 10:58:55 [Thread-4] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:58:55] GET /login HTTP/1.1: sec-ch-ua: "Not A(Brand";v="8", "Chromium";v="132", "YaBrowser";v="25.2", "Yowser";v="2.5"
+2025-04-26 10:58:55 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:58:55] GET /login HTTP/1.1: sec-ch-ua: "Not A(Brand";v="8", "Chromium";v="132", "YaBrowser";v="25.2", "Yowser";v="2.5"
+2025-04-26 10:58:55 [Thread-4] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:58:55] GET /login HTTP/1.1: sec-ch-ua-mobile: ?0
+2025-04-26 10:58:55 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:58:55] GET /login HTTP/1.1: sec-ch-ua-mobile: ?0
+2025-04-26 10:58:55 [Thread-4] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:58:55] GET /login HTTP/1.1: sec-ch-ua-platform: "Windows"
+2025-04-26 10:58:55 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:58:55] GET /login HTTP/1.1: sec-ch-ua-platform: "Windows"
+2025-04-26 10:58:55 [Thread-4] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:58:55] GET /login HTTP/1.1: Upgrade-Insecure-Requests: 1
+2025-04-26 10:58:55 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:58:55] GET /login HTTP/1.1: Upgrade-Insecure-Requests: 1
+2025-04-26 10:58:55 [Thread-4] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:58:55] GET /login HTTP/1.1: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+2025-04-26 10:58:55 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:58:55] GET /login HTTP/1.1: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+2025-04-26 10:58:55 [Thread-4] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:58:55] GET /login HTTP/1.1: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2025-04-26 10:58:55 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:58:55] GET /login HTTP/1.1: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2025-04-26 10:58:55 [Thread-4] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:58:55] GET /login HTTP/1.1: Sec-Fetch-Site: cross-site
+2025-04-26 10:58:55 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:58:55] GET /login HTTP/1.1: Sec-Fetch-Site: cross-site
+2025-04-26 10:58:55 [Thread-4] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:58:55] GET /login HTTP/1.1: Sec-Fetch-Mode: navigate
+2025-04-26 10:58:55 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:58:55] GET /login HTTP/1.1: Sec-Fetch-Mode: navigate
+2025-04-26 10:58:55 [Thread-4] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:58:55] GET /login HTTP/1.1: Sec-Fetch-Dest: document
+2025-04-26 10:58:55 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:58:55] GET /login HTTP/1.1: Sec-Fetch-Dest: document
+2025-04-26 10:58:55 [Thread-4] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:58:55] GET /login HTTP/1.1: Accept-Encoding: gzip, deflate, br, zstd
+2025-04-26 10:58:55 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:58:55] GET /login HTTP/1.1: Accept-Encoding: gzip, deflate, br, zstd
+2025-04-26 10:58:55 [Thread-4] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:58:55] GET /login HTTP/1.1: Accept-Language: ru,en;q=0.9
+2025-04-26 10:58:55 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:58:55] GET /login HTTP/1.1: Accept-Language: ru,en;q=0.9
+2025-04-26 10:58:55 [Thread-4] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:58:55] GET /login HTTP/1.1: If-None-Match: W/"34f-71pxzopWTejQ55/ycWUp+sZUY3k"
+2025-04-26 10:58:55 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:58:55] GET /login HTTP/1.1: If-None-Match: W/"34f-71pxzopWTejQ55/ycWUp+sZUY3k"
+2025-04-26 10:58:55 [Thread-4] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:58:55] GET /login HTTP/1.1: 
+2025-04-26 10:58:55 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:58:55] GET /login HTTP/1.1: 
+2025-04-26 10:58:55 [Thread-4] INFO  org.example.networkchat.Server - Client disconnected, remaining clients: 3
+2025-04-26 10:58:55 [Thread-4] INFO  org.example.networkchat.Server - Broadcasting message: GET /login HTTP/1.1 has left the chat
+2025-04-26 10:58:55 [Thread-0] INFO  org.example.networkchat.Client - Received: GET /login HTTP/1.1 has left the chat
+2025-04-26 10:59:35 [Thread-5] INFO  o.example.networkchat.ClientHandler - User GET /login HTTP/1.1 connected
+2025-04-26 10:59:35 [Thread-5] INFO  org.example.networkchat.Server - Broadcasting message: GET /login HTTP/1.1 has joined the chat
+2025-04-26 10:59:35 [Thread-0] INFO  org.example.networkchat.Client - Received: GET /login HTTP/1.1 has joined the chat
+2025-04-26 10:59:35 [Thread-5] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:59:35] GET /login HTTP/1.1: Host: localhost:8081
+2025-04-26 10:59:35 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:59:35] GET /login HTTP/1.1: Host: localhost:8081
+2025-04-26 10:59:35 [Thread-5] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:59:35] GET /login HTTP/1.1: Connection: keep-alive
+2025-04-26 10:59:35 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:59:35] GET /login HTTP/1.1: Connection: keep-alive
+2025-04-26 10:59:35 [Thread-5] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:59:35] GET /login HTTP/1.1: sec-ch-ua: "Not A(Brand";v="8", "Chromium";v="132", "YaBrowser";v="25.2", "Yowser";v="2.5"
+2025-04-26 10:59:35 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:59:35] GET /login HTTP/1.1: sec-ch-ua: "Not A(Brand";v="8", "Chromium";v="132", "YaBrowser";v="25.2", "Yowser";v="2.5"
+2025-04-26 10:59:35 [Thread-5] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:59:35] GET /login HTTP/1.1: sec-ch-ua-mobile: ?0
+2025-04-26 10:59:35 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:59:35] GET /login HTTP/1.1: sec-ch-ua-mobile: ?0
+2025-04-26 10:59:35 [Thread-5] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:59:35] GET /login HTTP/1.1: sec-ch-ua-platform: "Windows"
+2025-04-26 10:59:35 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:59:35] GET /login HTTP/1.1: sec-ch-ua-platform: "Windows"
+2025-04-26 10:59:35 [Thread-5] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:59:35] GET /login HTTP/1.1: Upgrade-Insecure-Requests: 1
+2025-04-26 10:59:35 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:59:35] GET /login HTTP/1.1: Upgrade-Insecure-Requests: 1
+2025-04-26 10:59:35 [Thread-5] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:59:35] GET /login HTTP/1.1: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+2025-04-26 10:59:35 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:59:35] GET /login HTTP/1.1: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+2025-04-26 10:59:35 [Thread-5] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:59:35] GET /login HTTP/1.1: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2025-04-26 10:59:35 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:59:35] GET /login HTTP/1.1: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2025-04-26 10:59:35 [Thread-5] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:59:35] GET /login HTTP/1.1: Sec-Fetch-Site: cross-site
+2025-04-26 10:59:35 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:59:35] GET /login HTTP/1.1: Sec-Fetch-Site: cross-site
+2025-04-26 10:59:35 [Thread-5] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:59:35] GET /login HTTP/1.1: Sec-Fetch-Mode: navigate
+2025-04-26 10:59:35 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:59:35] GET /login HTTP/1.1: Sec-Fetch-Mode: navigate
+2025-04-26 10:59:35 [Thread-5] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:59:35] GET /login HTTP/1.1: Sec-Fetch-User: ?1
+2025-04-26 10:59:35 [Thread-5] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:59:35] GET /login HTTP/1.1: Sec-Fetch-Dest: document
+2025-04-26 10:59:35 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:59:35] GET /login HTTP/1.1: Sec-Fetch-User: ?1
+2025-04-26 10:59:35 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:59:35] GET /login HTTP/1.1: Sec-Fetch-Dest: document
+2025-04-26 10:59:35 [Thread-5] INFO  org.example.networkchat.Server - Client disconnected, remaining clients: 3
+2025-04-26 10:59:35 [Thread-5] INFO  org.example.networkchat.Server - Broadcasting message: GET /login HTTP/1.1 has left the chat
+2025-04-26 10:59:35 [Thread-0] INFO  org.example.networkchat.Client - Received: GET /login HTTP/1.1 has left the chat
+2025-04-26 10:59:36 [Thread-6] INFO  o.example.networkchat.ClientHandler - User GET /login HTTP/1.1 connected
+2025-04-26 10:59:36 [Thread-6] INFO  org.example.networkchat.Server - Broadcasting message: GET /login HTTP/1.1 has joined the chat
+2025-04-26 10:59:36 [Thread-0] INFO  org.example.networkchat.Client - Received: GET /login HTTP/1.1 has joined the chat
+2025-04-26 10:59:36 [Thread-6] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:59:36] GET /login HTTP/1.1: Host: localhost:8081
+2025-04-26 10:59:36 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:59:36] GET /login HTTP/1.1: Host: localhost:8081
+2025-04-26 10:59:36 [Thread-6] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:59:36] GET /login HTTP/1.1: Connection: keep-alive
+2025-04-26 10:59:36 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:59:36] GET /login HTTP/1.1: Connection: keep-alive
+2025-04-26 10:59:36 [Thread-6] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:59:36] GET /login HTTP/1.1: Cache-Control: max-age=0
+2025-04-26 10:59:36 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:59:36] GET /login HTTP/1.1: Cache-Control: max-age=0
+2025-04-26 10:59:36 [Thread-6] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:59:36] GET /login HTTP/1.1: sec-ch-ua: "Not A(Brand";v="8", "Chromium";v="132", "YaBrowser";v="25.2", "Yowser";v="2.5"
+2025-04-26 10:59:36 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:59:36] GET /login HTTP/1.1: sec-ch-ua: "Not A(Brand";v="8", "Chromium";v="132", "YaBrowser";v="25.2", "Yowser";v="2.5"
+2025-04-26 10:59:36 [Thread-6] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:59:36] GET /login HTTP/1.1: sec-ch-ua-mobile: ?0
+2025-04-26 10:59:36 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:59:36] GET /login HTTP/1.1: sec-ch-ua-mobile: ?0
+2025-04-26 10:59:36 [Thread-6] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:59:36] GET /login HTTP/1.1: sec-ch-ua-platform: "Windows"
+2025-04-26 10:59:36 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:59:36] GET /login HTTP/1.1: sec-ch-ua-platform: "Windows"
+2025-04-26 10:59:36 [Thread-6] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:59:36] GET /login HTTP/1.1: Upgrade-Insecure-Requests: 1
+2025-04-26 10:59:36 [Thread-6] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:59:36] GET /login HTTP/1.1: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+2025-04-26 10:59:36 [Thread-6] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:59:36] GET /login HTTP/1.1: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2025-04-26 10:59:36 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:59:36] GET /login HTTP/1.1: Upgrade-Insecure-Requests: 1
+2025-04-26 10:59:36 [Thread-6] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:59:36] GET /login HTTP/1.1: Sec-Fetch-Site: cross-site
+2025-04-26 10:59:36 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:59:36] GET /login HTTP/1.1: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+2025-04-26 10:59:36 [Thread-6] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:59:36] GET /login HTTP/1.1: Sec-Fetch-Mode: navigate
+2025-04-26 10:59:36 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:59:36] GET /login HTTP/1.1: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2025-04-26 10:59:36 [Thread-6] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:59:36] GET /login HTTP/1.1: Sec-Fetch-Dest: document
+2025-04-26 10:59:36 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:59:36] GET /login HTTP/1.1: Sec-Fetch-Site: cross-site
+2025-04-26 10:59:36 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:59:36] GET /login HTTP/1.1: Sec-Fetch-Mode: navigate
+2025-04-26 10:59:36 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:59:36] GET /login HTTP/1.1: Sec-Fetch-Dest: document
+2025-04-26 10:59:36 [Thread-6] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:59:36] GET /login HTTP/1.1: Accept-Encoding: gzip, deflate, br, zstd
+2025-04-26 10:59:36 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:59:36] GET /login HTTP/1.1: Accept-Encoding: gzip, deflate, br, zstd
+2025-04-26 10:59:36 [Thread-6] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:59:36] GET /login HTTP/1.1: Accept-Language: ru,en;q=0.9
+2025-04-26 10:59:36 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:59:36] GET /login HTTP/1.1: Accept-Language: ru,en;q=0.9
+2025-04-26 10:59:36 [Thread-6] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:59:36] GET /login HTTP/1.1: If-None-Match: W/"34f-71pxzopWTejQ55/ycWUp+sZUY3k"
+2025-04-26 10:59:36 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:59:36] GET /login HTTP/1.1: If-None-Match: W/"34f-71pxzopWTejQ55/ycWUp+sZUY3k"
+2025-04-26 10:59:36 [Thread-6] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 10:59:36] GET /login HTTP/1.1: 
+2025-04-26 10:59:36 [Thread-0] INFO  org.example.networkchat.Client - Received: [2025-04-26 10:59:36] GET /login HTTP/1.1: 
+2025-04-26 10:59:36 [Thread-6] INFO  org.example.networkchat.Server - Client disconnected, remaining clients: 2
+2025-04-26 10:59:36 [Thread-6] INFO  org.example.networkchat.Server - Broadcasting message: GET /login HTTP/1.1 has left the chat
+2025-04-26 10:59:36 [Thread-0] INFO  org.example.networkchat.Client - Received: GET /login HTTP/1.1 has left the chat
+2025-04-26 11:01:54 [Thread-0] ERROR o.example.networkchat.ClientHandler - Error handling client Anonymous: Connection reset
+2025-04-26 11:01:54 [Thread-0] INFO  org.example.networkchat.Server - Client disconnected, remaining clients: 1
+2025-04-26 11:01:54 [Thread-0] INFO  org.example.networkchat.Server - Broadcasting message: Anonymous has left the chat
+2025-04-26 11:37:03 [WebSocketSelector-33] INFO  o.e.networkchat.WebSocketChatServer - WebSocket server started on port 8082
+2025-04-26 11:37:03 [main] INFO  o.e.networkchat.SimpleHttpServer - HTTP server started on port 8080
+2025-04-26 11:37:03 [main] INFO  org.example.networkchat.Server - Server started on port 8081
+2025-04-26 11:39:42 [WebSocketWorker-21] INFO  o.e.networkchat.WebSocketChatServer - WebSocket user art4000 connected
+2025-04-26 11:39:42 [WebSocketWorker-21] INFO  org.example.networkchat.Server - Broadcasting message: art4000 has joined via WebSocket
+2025-04-26 11:39:49 [WebSocketWorker-21] INFO  o.e.networkchat.WebSocketChatServer - WebSocket message: [2025-04-26 11:39:49] art4000: привет
+2025-04-26 11:39:49 [WebSocketWorker-21] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 11:39:49] art4000: привет
+2025-04-26 11:40:33 [WebSocketWorker-22] INFO  o.e.networkchat.WebSocketChatServer - WebSocket user art4000@list.ru connected
+2025-04-26 11:40:33 [WebSocketWorker-22] INFO  org.example.networkchat.Server - Broadcasting message: art4000@list.ru has joined via WebSocket
+2025-04-26 11:40:36 [WebSocketWorker-22] INFO  o.e.networkchat.WebSocketChatServer - WebSocket message: [2025-04-26 11:40:36] art4000@list.ru: куку
+2025-04-26 11:40:36 [WebSocketWorker-22] INFO  org.example.networkchat.Server - Broadcasting message: [2025-04-26 11:40:36] art4000@list.ru: куку
+2025-04-26 11:41:20 [WebSocketSelector-33] INFO  o.e.networkchat.WebSocketChatServer - WebSocket user art4000@list.ru disconnected
+2025-04-26 11:41:20 [WebSocketSelector-33] INFO  org.example.networkchat.Server - Broadcasting message: art4000@list.ru has left via WebSocket
+2025-04-26 11:41:20 [WebSocketSelector-33] INFO  o.e.networkchat.WebSocketChatServer - WebSocket user art4000 disconnected
+2025-04-26 11:41:20 [WebSocketSelector-33] INFO  org.example.networkchat.Server - Broadcasting message: art4000 has left via WebSocket
